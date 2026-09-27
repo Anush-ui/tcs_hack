@@ -1,0 +1,71 @@
+{
+  "notice": "DEMO / SIMULATED THREAT INTELLIGENCE FEED — Architecture ready for VirusTotal, URLhaus, Google Safe Browsing, and AbuseIPDB.",
+  "feeds": [
+    {
+      "id": "CAM-2026-081",
+      "type": "campaign",
+      "indicator": "Operation FakeKYC-SBI",
+      "category": "SMS Phishing / Smishing",
+      "target_bank": "State Bank of India (SBI)",
+      "threat_level": "CRITICAL",
+      "reported_date": "2026-08-25",
+      "description": "Mass SMS campaigns sending fake urgent KYC expiry warnings linking to *.xyz and *.top fast-flux domains hosting cloned Yono SBI login portals.",
+      "source": "BankShield Demo Threat Intel"
+    },
+    {
+      "id": "CAM-2026-079",
+      "type": "campaign",
+      "indicator": "HDFC-NetBank-Trojan APK",
+      "category": "WhatsApp Malware Delivery",
+      "target_bank": "HDFC Bank",
+      "threat_level": "CRITICAL",
+      "reported_date": "2026-08-20",
+      "description": "WhatsApp impersonation distributing malicious banking trojan APK disguised as 'HDFC-Security-Update.apk' to intercept SMS OTPs.",
+      "source": "BankShield Demo Threat Intel"
+    },
+    {
+      "id": "DOM-2026-4401",
+      "type": "domain",
+      "indicator": "sbi-kyc-verification.xyz",
+      "category": "Credential Harvesting",
+      "target_bank": "State Bank of India",
+      "threat_level": "CRITICAL",
+      "reported_date": "2026-08-24",
+      "description": "Active phishing domain mimicking SBI internet banking login page with credential & OTP exfiltration endpoints.",
+      "source": "Simulated URLhaus Feed"
+    },
+    {
+      "id": "DOM-2026-4402",
+      "type": "domain",
+      "indicator": "hdfc-netbanking-security.top",
+      "category": "Credential Harvesting",
+      "target_bank": "HDFC Bank",
+      "threat_level": "CRITICAL",
+      "reported_date": "2026-08-22",
+      "description": "Lookalike domain masquerading as HDFC NetBanking password reset portal.",
+      "source": "Simulated VirusTotal Feed"
+    },
+    {
+      "id": "DOM-2026-4403",
+      "type": "domain",
+      "indicator": "icici-rewards-claim.club",
+      "category": "Financial Scam / Advance Fee",
+      "target_bank": "ICICI Bank",
+      "threat_level": "HIGH",
+      "reported_date": "2026-08-19",
+      "description": "Fake reward points redemption portal collecting credit card numbers, CVV, and expiration dates.",
+      "source": "Simulated Google Safe Browsing"
+    },
+    {
+      "id": "IP-2026-1092",
+      "type": "ip",
+      "indicator": "192.168.1.100",
+      "category": "Direct IP Hosting / Private Node",
+      "target_bank": "Generic",
+      "threat_level": "HIGH",
+      "reported_date": "2026-08-15",
+      "description": "Hosting raw HTTP login phishing kits without legitimate SSL certificates or registered domain names.",
+      "source": "Simulated AbuseIPDB Feed"
+    }
+  ]
+}

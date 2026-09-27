@@ -1,0 +1,50 @@
+{
+  "notice": "DEMO / SIMULATED THREAT INTELLIGENCE DATABASE - Used for evaluation & hackathon demonstration.",
+  "records": {
+    "+919876543210": {
+      "reputation": "HIGH_RISK",
+      "risk_score": 94,
+      "report_count": 482,
+      "category": "Fake Electricity / Bank KYC Disconnection Scam",
+      "target_entity": "SBI / Canara / Tata Power",
+      "first_reported": "2026-06-12",
+      "tags": ["Urgent Disconnection", "Fake Officer", "Screen Share APK Scam"]
+    },
+    "+919988776655": {
+      "reputation": "HIGH_RISK",
+      "risk_score": 89,
+      "report_count": 217,
+      "category": "Part-time Telegram / Hotel Rating Task Fraud",
+      "target_entity": "Multiple Banks",
+      "first_reported": "2026-07-01",
+      "tags": ["Job Scam", "UPI Advance Fee", "Ponzi Scheme"]
+    },
+    "+918800112233": {
+      "reputation": "HIGH_RISK",
+      "risk_score": 96,
+      "report_count": 612,
+      "category": "Fake HDFC NetBanking Support & OTP Interception",
+      "target_entity": "HDFC Bank",
+      "first_reported": "2026-05-18",
+      "tags": ["OTP Theft", "Card CVV Phishing", "SIM Swap"]
+    },
+    "+917766554433": {
+      "reputation": "SUSPICIOUS",
+      "risk_score": 58,
+      "report_count": 34,
+      "category": "Unsolicited Credit Card & Personal Loan Robocall",
+      "target_entity": "Axis / Kotak",
+      "first_reported": "2026-08-10",
+      "tags": ["Cold Call", "Unregistered Telemarketer", "High Frequency"]
+    },
+    "+919000011111": {
+      "reputation": "SAFE",
+      "risk_score": 5,
+      "report_count": 0,
+      "category": "Verified Enterprise Customer Care Sender",
+      "target_entity": "Official Banking Partner",
+      "first_reported": "2024-01-01",
+      "tags": ["Verified Whitelist", "Transactional Only"]
+    }
+  }
+}
